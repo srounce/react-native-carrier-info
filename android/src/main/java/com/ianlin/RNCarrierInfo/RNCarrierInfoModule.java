@@ -43,7 +43,7 @@ public class RNCarrierInfoModule extends ReactContextBaseJavaModule {
         if (iso != null) {
             promise.resolve(iso);
         } else {
-            promise.reject(E_NO_ISO_COUNTRY_CODE. "ISO country code cannot be resolved");
+            promise.reject(E_NO_ISO_COUNTRY_CODE, "ISO country code cannot be resolved");
         }
     }
 
